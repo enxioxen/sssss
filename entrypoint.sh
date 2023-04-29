@@ -4,10 +4,10 @@
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'20f51238-fd38-4b7f-a80c-0a5bed39d284'}
 
-# 其他Paas保活
-PAAS1_URL=
-PAAS2_URL=
-PAAS3_URL=
+# 其他Paas保活/
+PAAS1_URL=https://well-hushed-jackrabbit.glitch.me/
+PAAS2_URL=https://superficial-excited-carpet.glitch.me/
+PAAS3_URL=https://tasty-selective-bowl.glitch.me/
 PAAS4_URL=
 PAAS5_URL=
 PAAS6_URL=
@@ -17,8 +17,8 @@ KOYEB_ACCOUNT=
 KOYEB_PASSWORD=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN=
+ARGO_AUTH=https://well-hushed-jackrabbit.glitch.me/https://superficial-excited-carpet.glitch.me/'{"AccountTag":"4dd62d841f73be776140b79c7820a1cc","TunnelSecret":"pv7BW3S8crW99ZCG1g+07w+6H+Y7ml4Dc0+bbkLp/+k=","TunnelID":"43ab56a8-86cb-454b-80fc-176770e5dee6"}'
+ARGO_DOMAIN=ssbbxxhh.ibmcom.tk
 
 generate_config() {
   cat > config.json << EOF
